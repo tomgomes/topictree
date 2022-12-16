@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+.tela{
+    background-image: url('/login/fundo2.jpg');
+    background-color:#00BE9C; /* verde */    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cor_texto{
+	color:#ffffff; /* branco */
+}
+
+.painel{
+	height: 15em;
+	padding: 1em;
+}
+
+.botao_crie_seu_tutorial{	
+	color: White;
+	background-color: Purple;
+}
+
+.sombra{
+    box-shadow: 2px 2px 2px #888888;
+}
+
+
+
+#div_painel_principal{
+/*     background-color:#5A0560;	 */
+/* 	background-color: SlateBlue;  */
+}
+
+.painel_principal{
+    background-color: #3E2D62;    
+    background-image: url('/home/resources/comunidade.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.painel2_cor{
+    background-color: SlateGrey;
+    background-position: right;    
+}
+
+#div_painel2_texto{
+	/* background-color:#708090; */
+}
+
+#div_painel2_imagem{    
+    background-image: url('/home/resources/tutoriais3.png');
+    background-repeat: no-repeat;
+    overflow: hidden;      
+}
+
+#div_painel3{
+	/* background-color:#; */
+}
+
+.painel3_cor{
+    /* background-color: RoyalBlue; */
+    background-color: #3B91DE;
+       
+}
+
+#div_painel3_imagem{
+    background-image: url('/home/resources/livros_altura_300px.png');
+    /* background-position: right; */    
+    background-repeat: no-repeat;
+    overflow: hidden;          
+}
+    
+    
+.painel4{
+    height: 20em;
+    padding: 1em;
+}
+
+.painel4_cor{
+    /* background-color: SlateGrey; */
+    background-color: #222222;    
+    background-position: right;    
+}
+
+#div_painel4_imagem{    
+    background-image: url('/home/resources/exemplo.png');
+    background-repeat: no-repeat;
+    overflow: hidden;      
+}
+    
+    
+    

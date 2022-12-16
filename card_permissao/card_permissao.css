@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* RODAPÉ FIXO */
+footer {
+    position: fixed;
+    /* height: 100px; */
+    bottom: 0;
+    width: 100%;
+}
+
+.tamanho_fonte {
+    font-size: 1rem;
+}
+
+html, body {
+    /* Tema dark 
+    color: white;    
+    */
+    background: #222;
+    
+    height: 100%; /* DRCPIT */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('resources/fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+p { 
+    margin: 0; 
+}
+
+table {
+    font-size: 1em;
+}
+
+.botao{
+    border-radius: 5px;
+    cursor:pointer
+}
+
+#img_salvar{
+    border:none;
+    /* content: url('/card/resources/save4.png'); */
+    background: url(/card/resources/save4.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    width:  32px;
+    position: relative;
+}
+
+#img_voltar{
+    /* content: url('/card/resources/voltar_verde_26px_26px.png'); */
+    background: url('/card/resources/voltar_verde_26px_26px.png');
+    background-repeat: no-repeat;
+    height: 32px;
+    width:  32px;
+    position: relative;
+}
+
+

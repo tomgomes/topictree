@@ -1,0 +1,12 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['autenticado'])):
+        header('Location:/index.php');
+        return;
+    else:
+        if(!$_SESSION['autenticado']):
+            header('Location:/index.php');
+            return;            
+        endif;
+    endif;        
+?>

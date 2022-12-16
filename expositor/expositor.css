@@ -1,0 +1,121 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+        
+    /* Tema dark */    
+    color: white;    
+    background: #222;    
+}
+
+p{
+  text-align: initial;
+}
+
+/* 
+#div_botoes{
+    margin: 20px -15px;        
+}
+ */
+
+#div_botoes{
+    margin: 20px -15px;
+    padding: 0;
+        
+    /* Tema dark */
+    color: white;
+    background: #222;
+        
+}
+
+#linha_cards{
+    border-top: 2px solid #424242; /* linha decorativa */
+    padding-top: 10px;
+    color: #333;
+    background: #333;
+}
+
+p { 
+    margin: 0; 
+}
+
+table {
+    font-size: 1em;
+}
+
+.ui-draggable, .ui-droppable {
+    background-position: top;
+}
+
+.card{
+    overflow: hidden;
+    width: 200px;
+    height: 300px;
+    margin: 10px;    
+    background-repeat: no-repeat;
+    padding: 5px;   
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;           
+}
+
+.sort-handle{
+    content: url('/expositor/resources/mover_25px_25px.png');
+    width: 25px;
+    height: 25px;
+    margin:0;
+    cursor: move;
+    position: absolute;    
+}
+ 
+.botao{
+    border-radius: 5px;
+    cursor:pointer
+}
+
+#grade { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;  
+}
+
+#grade li { 
+    overflow: hidden;
+    margin: 3px 24px 24px 0; 
+    float: left;
+    width: 220px; 
+    height: 320px; 
+}
+
+#grade .ui-selected {  
+    background: #505050;
+}
+
+#grade .ui-selecting {
+    background: #222; 
+}
+
+#grade ui-state-default{
+}
+
+#div_novo_card{
+    overflow: hidden;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    padding: 0px;
+    float: left;
+    cursor: pointer;
+    background-image: url('resources/card_adicionar.png');
+    background-repeat: no-repeat;    
+}
+ 
+#img_mover, 
+#img_editar, 
+#img_topicos, 
+#img_apagar, 
+#img_visualizar{    
+    height: 32px;
+    width:  32px;
+}
+
+
+

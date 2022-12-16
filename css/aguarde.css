@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* ESTILOS DO TIPO ELEMENTO */
+
+/* ESTILOS DO TIPO CLASSE */
+
+.aguarde{
+	display:block;
+	color:#000000;
+	font-family:Georgia;
+	font-size:2vw;	
+	margin-left:1vw;
+	margin-top:1vw;
+	margin-bottom:1vw;
+}
+
+/* ESTILOS DO TIPO IDENTIFICADOR */

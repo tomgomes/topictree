@@ -1,0 +1,187 @@
+/* THE BASICS */
+body, html {
+    height: 100%;
+    width: 100%;
+    
+    padding: 0;
+    margin: 0;
+    
+    font-family: sans-serif;
+    font-size: 12px;
+    
+    color: white;       
+    background: #0088cc; /* azul */
+    
+/*  Modo escuro   
+    color: #333;
+    background: #333;
+    
+*/
+    
+    overflow: hidden;
+    
+}
+
+ .container {
+    /* padding: 0; */
+    /* margin: 0; */
+}
+
+.container-row {
+    /* min-height: 1000px; */
+    
+    /* Importante. Permite ajustar a largura do layout */    
+    display: flex;
+    flex-direction: row;    
+}
+
+.logo {
+    color: white;
+    background: #222;
+    border-bottom: 1px solid #424242;
+    
+/*  Modo escuro   
+    color: white;
+    background: #007ab7;
+    border-bottom: 1px solid #3394c4;
+ */
+     
+    background-image: url("/tutorial/resources/tree_115px_70px.png");
+    background-repeat: no-repeat;
+    background-size: 116px 71px;
+    
+    text-align: right;
+    
+    padding: 20px 10px;
+}
+
+.header {
+    color: white;
+    background: #007ab7;
+    border-bottom: 1px solid #3394c4;
+    
+/*  Modo escuro     
+    color: white;
+    background: #222;
+    border-bottom: 1px solid #424242;
+
+ */    
+    width: 100%;
+    padding: 20px 10px;
+    
+}
+
+.sidebar {
+    width: 300px;
+    
+    color: #333;
+    background: #333;
+    
+/* Modo escuro     
+   color: white;       
+   background: #0088cc;    
+*/
+ 
+    /* Importante. Faixa de área onde o usuário vai poder ajustar a largura */
+    flex: 0 0 auto;
+    min-width: 150px;
+    max-width: 500px;
+    
+}
+
+
+.splitter {
+    width: 15px;    
+    background: url(/js/jquery-redimensionar/vsizegrip.png) center center no-repeat #FFFFFF;                 
+    cursor: col-resize;
+    /* margin: 0px; */
+     
+    /* Importante. Permite ajustar a largura do layout */
+    flex: 0 0 auto;
+}
+
+.content{
+    /* Importante. Permite ajustar a largura do layout */
+    flex: 1 1 auto;        
+}
+
+.logo, .header {
+    height: 35px;
+}
+
+.sidebar .inner {
+    padding: 10px;
+}
+
+.content-body {
+    padding: 15px;
+}
+
+.panel {  
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.panel-title {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.panel-body {
+    padding: 10px;
+}
+
+#img_recolher, #img_expandir, #img_voltar{
+    cursor:pointer;    
+}
+
+.separador_icones{
+    margin: 4px;
+}
+
+.ui-resizable-helper { 
+    border: 1px dotted black;
+}
+
+ui-widget-shadow { 
+    box-shadow: none; 
+}
+
+
+#form_editortexto{
+    /* padding: 20px; */
+    
+    cursor: text;
+
+    font-size: 13px;
+    line-height: 1.6;
+    word-wrap: break-word;
+
+    font-family: sans-serif, Arial, Verdana, "Trebuchet MS", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #333;
+    background-color: #fff;
+    /* margin: 20px; */
+
+    -webkit-line-break: after-white-space;
+
+    display: block;
+    
+}
+
+#form_editortexto p { margin: 0; }
+
+a {
+    color: #0782C1;
+}
+
+#jstree{
+    overflow-y: scroll;
+}
+
+#jstree:not(li) > ul > li:last-child {
+      margin-bottom: 175px;
+}

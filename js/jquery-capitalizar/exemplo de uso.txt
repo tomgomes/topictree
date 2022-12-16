@@ -1,0 +1,15 @@
+Exemplo de uso usando jQuery
+
+$("#input_text_nome").blur(function(){
+    capitalizar(this);
+});
+
+--------------------------------------------------------------
+
+Exemplo de uso usando JavaScript puro
+
+var $nome = Document.querySelector("#input_text_nome");
+$nome.addEventListener('blur', function(){
+    capitalizar(this);
+}):
+

@@ -1,0 +1,54 @@
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* Tema dark */    
+    /* color: white; */    
+    background: #222;    
+}
+
+/* 
+#div_botoes{
+    margin: 20px -15px;        
+}
+ */
+ 
+#div_botoes{
+    margin: 20px -15px;
+    padding: 0;
+        
+    /* Tema dark */
+    color: white;
+    background: #222;        
+}
+
+#linha_formulario{
+    border-top: 2px solid #424242; /* linha decorativa */
+    background: #333;
+}
+
+p { 
+    margin: 0; 
+}
+
+table {
+    font-size: 1em;
+}
+ 
+.botao{
+    border-radius: 5px;
+    cursor:pointer
+}
+ 
+#img_mover, 
+#img_editar, 
+#img_topicos, 
+#img_apagar, 
+#img_visualizar{    
+    height: 32px;
+    width:  32px;
+}
+
+
+
+
+
