@@ -10,6 +10,6 @@ Após adicionar informações eu convertia o formato .hnd para .html e depois su
 <hr/>
 Então resolvi criar minha própria ferramenta e a chamei de Topictree, resolvendo todas as desvantagens citadas acima.<br/>
 Minha ferramenta se encontra em:<br/>
-[https://topictree.app.br/](https://topictree.app.br/)<br/>
+[https://topictree.app.br/](https://topictree.app.br/)
 
 
