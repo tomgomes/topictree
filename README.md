@@ -9,6 +9,7 @@ Após adicionar informações eu convertia o formato .hnd para .html e depois su
 * Demora para subir todos os arquivos convertidos via sftp
 <hr/>
 Então resolvi criar minha própria ferramenta e a chamei de Topictree, resolvendo todas as desvantagens citadas acima.<br/>
+Eu posso editar as informações diretamente online, após salvar, elas estarão imediatamente disponíveis a todos.<br/>
 Minha ferramenta se encontra em:<br/>
 https://topictree.app.br/
 
